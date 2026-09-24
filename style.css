@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f7f8fc;
+    color: #333;
+    margin: 0;
+}
+
+h1 {
+    background: #8e285b;
+    color: white;
+    padding: 30px;
+    margin: 0;
+}
+
+nav {
+    background: white;
+    padding: 15px;
+}
+
+nav a {
+    color: #8e285b;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c14c70;
+}
+
+h2 {
+    color: #8e285b;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    width: 400px;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.card h3 {
+    color: #a52f62;
+}
+
+.box {
+    width: 200px;
+    height: 70px;
+    background: #c14c70;
+    color: white;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    /* Smooth movement */
+    transition: 0.7s;
+}
+
+
+/* TRANSLATE */
+
+.translate:hover {
+    transform: translate(60px, 20px);
+}
+
+
+/* ROTATE */
+
+.rotate:hover {
+    transform: rotate(15deg);
+}
+
+
+/* SCALE */
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+
+/* SKEW */
+
+.skew:hover {
+    transform: skew(15deg);
+}
+
+
+code {
+    background: #f2e7ed;
+    padding: 5px;
+    color: #8e285b;
+}
